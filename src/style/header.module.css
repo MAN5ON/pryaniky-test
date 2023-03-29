@@ -1,0 +1,10 @@
+.headerToolbar {
+	justify-content: space-between;
+	background-color: #f1f5f9;
+	padding: 0px;
+	margin: 0px;
+}
+
+.controls button {
+	margin: 0 5px;
+}

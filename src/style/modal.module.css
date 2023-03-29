@@ -1,0 +1,40 @@
+.modal {
+	position: fixed;
+	z-index: 100;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 35%;
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+
+	background-color: #f1f5f9;
+	border: solid rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	box-shadow: 0 0 0 1600px rgba(0, 0, 0, 0.5);
+}
+
+.modal h2 {
+	margin: 0 0 5px 0;
+}
+.modal button {
+	align-self: center;
+	padding: 5px 25px;
+	margin: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+	.modal {
+		width: 60%;
+	}
+  }
+  
+
+@media screen and (max-width: 600px) {
+	.modal {
+		width: 90%;
+	}
+  }
